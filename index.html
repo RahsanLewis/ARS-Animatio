@@ -8,15 +8,19 @@
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
-<header>
-    
+<!-- added class to header Put h1 from original div container in header -->
+<header class="is-size-1 has-text-white has-text-centered pb-5" id="mainHeader">
+  <h1>Ars Animatio</h1>
 </header>
 
+
 <body>
-  <div class="container">
+  <main>
+
+  <!-- <div class="container">
     <div class="homescreen">
       <h1 class="is-size-1 has-text-white has-text-centered pb-5">Ars Animatio</h1>
-    </div>
+    </div> -->
 
     <!-- Restructured and added ID user input -->
     <div id="User-Input" class="input">
@@ -28,8 +32,21 @@
       <input type="text" id="userInput1" placeholder="Search"/>
       <input class="button" id="searchbutton1" type="submit" value="Submit">
     </div>
+<!-- Div for Giphy API results -->
+    <div class="columns">
+      <div class="column">            
+        <div class="columns is-mobile">
+          <div class="column is-half" id="giphy-results">
+            <h2 class="is-size-4 has-text-white has-text-centered" id="giphy-header">GIPHY Results</h2>
+      </div>
+<!-- Div for Wallhaven results -->
+      <div class="column" id="wallhaven-results">
+        <h2 class="is-size-4 has-text-white has-text-centered" id="wallhaven">WallHaven Results</h2>
+        <p></p>
+      </div>
+    </div>
+  </div>
 
-    <div id="giphy-results"></div>
     
     <!-- Original Code -->
     <!-- <div class="search-bar">
@@ -43,6 +60,7 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
  <script src="./assets/js/script.js"></script>   
+  </main>
 </body>
 
 <!-- <footer class="footer">
