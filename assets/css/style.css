@@ -4,7 +4,7 @@ body {
   /* image source is https://wallhaven.cc/w/5755g1 */
   background-image: url("https://w.wallhaven.cc/full/57/wallhaven-5755g1.jpg");
   background-color: #303030;
-  height: 100vh;
+  /* height: 100vh; */
   background-position: center;
   /* unsure if search results need this CSS yet
   display: flex;
