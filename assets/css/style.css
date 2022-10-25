@@ -1,27 +1,28 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
 body {
-    background-color: #303030;
-    height: 100vh;
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  }
-
-/* .homescreen {
+  /* image source is https://wallhaven.cc/w/5755g1 */
+  background-image: url("https://w.wallhaven.cc/full/57/wallhaven-5755g1.jpg");
+  background-color: #303030;
+  height: 100vh;
+  background-position: center;
+  /* unsure if search results need this CSS yet
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-} */
+  align-content: center; */
+}
 
-.search-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-} 
+#header {
+  display: none;
+}
+
+#user-input {
+  height:0%;
+}
+
+.is-hidden {
+  display: none;
+}

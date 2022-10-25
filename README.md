@@ -3,6 +3,6 @@ Creating a search engine that supplies wallpaper similar to a scene from an anim
 
 ## Collaborators
 - Asia
-- Rasahn
+- Rahsan
 - Susan
 - Rick 

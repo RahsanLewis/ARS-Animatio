@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,6 +9,7 @@
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
+<<<<<<< HEAD
 <!-- added class to header Put h1 from original div container in header -->
 <header class="is-size-1 has-text-white has-text-centered pb-5" id="mainHeader">
   <h1>Ars Animatio</h1>
@@ -21,17 +23,48 @@
     <div class="homescreen">
       <h1 class="is-size-1 has-text-white has-text-centered pb-5">Ars Animatio</h1>
     </div> -->
-
-    <!-- Restructured and added ID user input -->
-    <div id="User-Input" class="input">
-      <input type="text" id="userInput" placeholder="Search"/>
-      <input class="button" id="searchbutton" type="submit" value="Submit">
+=======
+<body>
+  <header>
+    <div class="container" id="header">
+      <h1 class="has-text-white is-hidden">Ars Animatio</h1>
     </div>
-
-    <div id="User-Input1" class="input">
-      <input type="text" id="userInput1" placeholder="Search"/>
-      <input class="button" id="searchbutton1" type="submit" value="Submit">
+  </header>
+  <!-- created sections so that the child (container) will be centered -->
+  <!-- large section may make the results screen look too low -->
+  <section class="section" id="searchContainer">
+    <div class="container" id="homescreen">
+      <div class="homescreen">
+        <h1 class="is-size-1 has-text-white has-text-centered pb-5">Ars Animatio</h1>
+      </div>
     </div>
+>>>>>>> 3817d4481c2c343d5e6bf81a999a1d5c5e03503b
+
+    <!-- Restructured and added id user-input -->
+    <div class="container">
+      <div class="input">
+        <input class="input" id="user-input" type="text" placeholder="Search">
+        <input class="button" id="searchbutton" type="submit" value="Search">
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <!-- search result columns are hidden from view by default -->
+    <div class="columns is-hidden" id="search-results">
+      <div class="column">
+        <div class="columns is-mobile">
+          <div class="column is-half" id="giphy-results">
+            <h2 class="is-size-4 has-text-white has-text-centered">GIPHY Results</h2>
+            <!-- iframe with specified ratio for gif results -->
+          </div>
+          <div class="column" id="quote-results">
+            <h2 class="is-size-4 has-text-white has-text-centered">WallHaven Results</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+<<<<<<< HEAD
 <!-- Div for Giphy API results -->
     <div class="columns">
       <div class="column">            
@@ -61,6 +94,14 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
  <script src="./assets/js/script.js"></script>   
   </main>
+=======
+  </section>
+
+  <!-- <a href="http://jquery.com/">jQuery</a> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+>>>>>>> 3817d4481c2c343d5e6bf81a999a1d5c5e03503b
 </body>
 
 <!-- <footer class="footer">
